@@ -3,10 +3,7 @@
 A Python-based implementation of the classic Wumpus World AI problem, featuring a fully interactive graphical interface, a built-in AI agent, and strategic grid-based gameplay.
 
 **Course:** Artificial Intelligence
-**Student:** Menahil Suleman | FA24-BDS-029
-**Institute:** COMSATS University Islamabad
-**Instructor:** Sir Shahid Ali
-**Date:** 28 November 2025
+**Student:** Menahil Suleman 
 
 ---
 
@@ -44,7 +41,7 @@ Key features:
 
 Each tile in the grid can contain one or more of the following entities:
 
-![Game Entities](game_entities.png)
+<img width="834" height="551" alt="game_entities" src="https://github.com/user-attachments/assets/dbcb5cb6-735c-4876-9845-a2bde503a30c" />
 
 | Entity | Role |
 |--------|------|
@@ -64,13 +61,13 @@ Each tile in the grid can contain one or more of the following entities:
 
 The game opens with a simple menu offering three options: start a new game, read the About screen, or exit.
 
-![Main Menu](main_menu.png)
+<img width="344" height="347" alt="main_menu" src="https://github.com/user-attachments/assets/b1360a7d-a886-4890-9013-d5f38fdc7e1a" />
 
 ### In-Game HUD
 
 During gameplay a top control bar shows real-time information and action buttons.
 
-![HUD](hud.png)
+<img width="672" height="171" alt="hud" src="https://github.com/user-attachments/assets/6c5fca31-4804-486e-85b9-ee1d1e7b8f60" />
 
 | HUD Element | Purpose |
 |-------------|---------|
@@ -86,7 +83,7 @@ During gameplay a top control bar shows real-time information and action buttons
 
 The 8x8 game world is rendered on a Tkinter canvas. Items, hazards, percepts, safe tile highlights, and the AI path are all displayed visually and update after every action.
 
-![Grid Environment](grid_environment.png)
+<img width="482" height="473" alt="grid_environment" src="https://github.com/user-attachments/assets/e7343961-019e-4150-ba15-c1c4d7d3a15a" />
 
 ### Inventory
 
@@ -94,17 +91,17 @@ The inventory panel shows whether the player is currently holding gold and how m
 
 **Before collecting items:**
 
-![Inventory Before](inventory_before.png)
+<img width="397" height="382" alt="inventory_before" src="https://github.com/user-attachments/assets/5c231b98-8ef0-4ba9-a6a2-08e33fbb0b5d" />
 
 **After collecting items:**
 
-![Inventory After](inventory_after.png)
+<img width="400" height="382" alt="inventory_after" src="https://github.com/user-attachments/assets/37a05a4f-fe66-4daf-b98e-f9b0319acd95" />
 
 ### AI Agent in Action
 
 When the AI agent is activated it highlights safe tiles in green and traces its A* path across the grid toward gold and back to the start.
 
-![AI Agent Exploring](ai_agent.png)
+<img width="1057" height="689" alt="ai_agent" src="https://github.com/user-attachments/assets/ad890844-6d71-4ce9-97de-603cd5b75d24" />
 
 ---
 
@@ -227,37 +224,3 @@ python World.py
 | A (button) | Activate AI agent |
 
 ---
-
-## What to Add on GitHub
-
-Below is a checklist of everything to include in your GitHub repository:
-
-**Files to upload:**
-
-- `World.py` - the main game script
-- `README.md` - this file
-- All images in an `images/` folder:
-  - `main_menu.png`
-  - `hud.png`
-  - `grid_environment.png`
-  - `game_entities.png`
-  - `inventory_before.png`
-  - `inventory_after.png`
-  - `ai_agent.png`
-
-**Optional but recommended:**
-
-- `requirements.txt` listing `pillow`
-- A `LICENSE` file (MIT is standard for student projects)
-- The PDF report `Ai_report.pdf` placed in a `docs/` folder
-- The PowerPoint `Hidden_Wumpus_Game_ppt.pptx` also in `docs/`
-
-**Repository settings to configure:**
-
-- Add a short repository description: "Grid-based Wumpus World game with A* AI agent built in Python and Tkinter"
-- Add topics / tags: `python`, `tkinter`, `ai`, `wumpus-world`, `a-star`, `game`
-- Set the README as the homepage so images display automatically
-
----
-
-Made for the Artificial Intelligence course at COMSATS University Islamabad.
